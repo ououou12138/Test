@@ -19,7 +19,9 @@ parser.add_argument("-ds","--drought_strength",type=float,help = "干旱时元�
 parser.add_argument("-df","--die_diff",type=int,help="植物死亡需要连续缺少养分的回合数（默认值=1）",default=1,dest="die_diff")
 
 
-args = parser.parse_args()
+args = parser.parse_args()  
+
+
 
 count = 0  #全局变量
 
